@@ -87,6 +87,9 @@
 	.foot-text{
 		font-size: 9px !important;
 	}
+	.control {
+    margin-top: 232px;
+}
 }
 @media only screen and (max-width: 991px) {
 	.product-section .row{
@@ -106,4 +109,12 @@
 		font-size: 13px;
 		padding-top: 15px !important;
 	}
+	.control {
+    margin-top: 215px;
+}
+}
+@media only screen and (max-width: 375px) {
+	.control {
+    margin-top: 263px;
+}
 }

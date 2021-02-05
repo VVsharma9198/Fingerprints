@@ -1,11 +1,23 @@
-body{
+*{
+	box-sizing: border-box;
+}
+.section-1{
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),url(image/4b5dea21a966b3a31fcba7d1072a1574eedd326c.jpeg);
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
-	position: relative;
+	background-attachment: fixed;
 	width: 100%;
-	height: 100%;
+	height: 500px;
+}
+.section-2{
+	margin-top: -500px;
+}
+.gallery img:hover{
+	transform: scale(1.009);
+}
+body{
+	
 }
 .header-top{
 	background-color: white;
@@ -216,3 +228,63 @@ input:not(:focus):valid ~ .floating-label {
 	opacity: 1;
 	color: #404040;
 }
+.scroll-year{
+	position: absolute;
+	//margin-top: 100px;
+    text-align: center;
+	position: relative;
+	border-top: 1px solid grey;
+	width: 100%;
+}
+.dot{
+	display: inline-block;
+	position: relative;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: grey;
+	display: inline-flex;
+}
+.dot:active{
+	background-color: aqua;
+}
+.control{
+	margin-top: 100px;
+}
+.slide{
+	height: 250px;
+}
+
+.showSlide {  
+     width: 100%;  
+}  
+.slidercontainer {   
+     position: relative;  
+     margin: auto;  
+}  
+ .left, .right { 
+	position: absolute;
+	margin-top: -23px;
+    cursor: pointer;   
+	width: auto;  
+    padding: 10px;    
+    color: white;  
+    font-weight: bold;  
+    font-size: 18px;  
+    transition: 1.6s ease;  
+   border-radius: 3px 0px 0px 3px;  
+}  
+.right {  
+     right: 0;  
+      border-radius: 0 3px 3px 0;  
+   }  
+  .left:hover, .right:hover {  
+      background-color: rgba(115, 115, 115, 0.8);  
+   }  
+  .active {  
+      background-color: #717171;  
+        }  
+.fade { 
+opacity: 1;
+   }  
+        

@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-  		<meta name="description" content="Free Web tutorials">
+  		<meta name="description" content="">
   		<meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
   		<meta name="author" content="Vivek Sharma V">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="responsive-style.css">
+		<link rel="stylesheet" href="lightbox.min.css">
+		<script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
 	</head>
 	<body>
 		<div class="header-top">
@@ -39,8 +41,9 @@
     			<li><a href="#contact"><button>ENQUIRY NOW</button></a></li>
   			</ul>
 		</header>
-		<span class="vvs">
-    	</span>
+		<div class="section-1 box">
+		</div>
+		<div class="section-2 box">
 		<div class="banner">
 			<div class="banner-text">
 				<h1 style="padding-bottom: 30px;">Superior Precision<br>Machine Tools</h1>
@@ -51,6 +54,9 @@
 		</div>
 		<div class="body-section">
 			<div class="container">
+				<div class="slidercontainer">
+					<div class="slide">
+						<div class="showSlide fade">
 				<div class="row">
 					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
 						<h1>Accuracy,<br>Speed &amp;<br>Rigidity</h1>
@@ -59,7 +65,64 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet nisl purus in mollis nunc. Pulvinar elementum integer enim neque volutpat. Sit amet justo donec enim. Eleifend mi in nulla posuere sollicitudin aliquam.</p>
 						<p>Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Sed arcu non odio euismod lacinia at quis risus. Enim eu turpis egestas pretium. Vel orci porta non pulvinar. Curabitur vitae nunc sed velit dignissim sodales ut. Massa placerat duis ultricies lacus sed.Massa placerat duis ultricies lacus sed. Sed faucibus turpis in eu.</p>
 					</div>
+							</div></div>
+						
+						<section class="showSlide fade">
+				<div class="row">
+					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+						<h1>CNC Lathe<br>Speed &amp;<br>CNC Lathe</h1>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+						<p>Ut sem nulla pharetra diam. Pellentesque habitant morbi tristique senectus et netus. Ipsum consequat nisl vel pretium lectus. Vitae et leo duis ut. Sed adipiscing diam donec adipiscing tristique. Pharetra magna ac placerat vestibulum. </p>
+						<p>Tellus rutrum tellus pellentesque eu. Massa sed elementum tempus egestas. Vulputate dignissim suspendisse in est. Mauris cursus mattis molestie a iaculis at erat.</p>
+					</div>
+					</div></section>
+						
+						<section class="showSlide fade">
+				<div class="row">
+					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+						<h1>CNC Sliding <br>Head Stock<br></h1>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+						<p>Convallis tellus id interdum velit laoreet id. Consequat nisl vel pretium lectus quam id leo in vitae. Ut tellus elementum sagittis vitae et. </p>
+						<p>Facilisis leo vel fringilla est ullamcorper eget nulla. Quis viverra nibh cras pulvinar mattis nunc sed. Nunc aliquet bibendum enim facilisis gravida. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Pellentesque adipiscing commodo elit at imperdiet dui accumsan. Sapien pellentesque habitant morbi tristique.</p>
+					</div>
+					</div></section>
+						
+						<section class="showSlide fade">
+				<div class="row">
+					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+						<h1>CNC Turnmill Center<br>turnmill<br>center</h1>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet nisl purus in mollis nunc. Pulvinar elementum integer enim neque volutpat. Sit amet justo donec enim. Eleifend mi in nulla posuere sollicitudin aliquam.</p>
+						<p>Malesuada bibendum arcu vitae elementum curabitur vitae nunc. Sed arcu non odio euismod lacinia at quis risus. Enim eu turpis egestas pretium. Vel orci porta non pulvinar. Curabitur vitae nunc sed velit dignissim sodales ut. Massa placerat duis ultricies lacus sed.Massa placerat duis ultricies lacus sed. Sed faucibus turpis in eu.</p>
+					</div>
+					</div></section>
+					
+					
+					</div>
+					<div class="control">
+					<div class="row">
+						<div class="col-1 col-xl-1 col-lg-1 col-md-1 col-sm-1">
+						<a class="left" onclick="nextSlide(-1)">❮</a>
+						</div>
+						<div class="col-10  col-xl-10 col-lg-10 col-md-10 col-sm-10">
+							<div class="scroll-year">
+						<div class="row">
+							<div class="col-3" style="margin-top: -46px;"><p>2014</p><span class="dot"></span></div>
+							<div class="col-3" style="margin-top: -46px;"><p>2015</p><span class="dot"></span></div>
+							<div class="col-3" style="margin-top: -46px;"><p>2016</p><span class="dot"></span></div>
+							<div class="col-3" style="margin-top: -46px;"><p>2017</p><span class="dot"></span></div>
+						</div>
+						
+							</div></div>
+						<div class="col-1 col-xl-1 col-lg-1 col-md-1 col-sm-1">
+							<a class="right" onclick="nextSlide(1)">❯</a></div>
+					</div>
 				</div>
+				</div>
+				
 			</div>
 		</div>
 		<div  class="product-section" style="text-align: left;">
@@ -104,18 +167,20 @@
 		<div class="factory-photos" style="background-color: white; padding-top: 30px;">
 			<div class="container">
 				<h1>Factory Photos</h1>
+				<div class="gallery">
 				<div class="row">
 					<div class="col-12">
-						<img src="image/https___s3-ap-northeast-1.amazonaws.com_psh-ex-ftnikkei-3937bb4_images_0_8_0_7_13797080-6-eng-GB_20180501_Tsugami_factory.jpg">
+						<a href="image/https___s3-ap-northeast-1.amazonaws.com_psh-ex-ftnikkei-3937bb4_images_0_8_0_7_13797080-6-eng-GB_20180501_Tsugami_factory.jpg" data-lightbox="mygallery"><img src="image/https___s3-ap-northeast-1.amazonaws.com_psh-ex-ftnikkei-3937bb4_images_0_8_0_7_13797080-6-eng-GB_20180501_Tsugami_factory.jpg"></a>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><img src="image/unnamed.jpg"></div>
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><img src="image/quiesttornos.jpg"></div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><a href="image/unnamed.jpg" data-lightbox="mygallery"><img src="image/unnamed.jpg"></a></div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><a href="image/quiesttornos.jpg" data-lightbox="mygallery"><img src="image/quiesttornos.jpg"></a></div>
 				</div>
 				<div class="row">
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><img src="image/unnamed%20(1).jpg"></div>
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><img src="image/unnamed.png"></div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><a href="image/unnamed%20(1).jpg" data-lightbox="mygallery"><img src="image/unnamed%20(1).jpg"></a></div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"><a href="image/unnamed.png" data-lightbox="mygallery"><img src="image/unnamed.png"></a></div>
+				</div>
 				</div>
 				<div class="contact" style="margin:60px 60px 0px 60px; ">
 					<div class="row">
@@ -165,20 +230,52 @@
 				</div>
 			</div>
 		</div>
-		
-		<script>
-window.onscroll = function() {myFunction()};
+		</div>
+		<script type="text/javascript">
+			window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+			function myFunction() {
+  				if (window.pageYOffset >= sticky) {
+    			navbar.classList.add("sticky")
+  			} else {
+    			navbar.classList.remove("sticky");
+  				}
+			}
+			
+			
+	var slide_index = 1;  
+        displaySlides(slide_index);  
+  
+        function nextSlide(n) {  
+            displaySlides(slide_index += n);  
+        }  
+  
+        function currentSlide(n) {  
+            displaySlides(slide_index = n);  
+        }  
+  
+        function displaySlides(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide");  
+			var dot = document.getElementsByClassName("dot");
+            if (n > slides.length) { slide_index = 1 }  
+            if (n < 1) { slide_index = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";
+				dot[i].style.backgroundColor="grey";
+            }  
+            slides[slide_index - 1].style.display = "block";  
+			dot[slide_index -1].style.backgroundColor="#171687";
+			
+        }  
+			
+			
+			//$(".dot").on("click", function() {
+    //$(this).css("background", "#171687");
+//}); 
 </script>
 	</body>
 </html>
